@@ -65,7 +65,7 @@ if st.sidebar.button(f"Iniciar Chat sobre {selected_topic}"):
     st.rerun() # Recarrega para exibir a introdução
 
 st.sidebar.markdown("--- ")
-st.sidebar.info("Este assistente utiliza IA Generativa para fornecer informações técnicas. Verifique dados críticos em fontes oficiais.")
+st.sidebar.info("Este assistente utiliza IA Generativa para fornecer informações técnicas. Desenvolvido com ❤️ por Engº Paulo Rogério Veiga Silva!")
 
 # --- Área Principal do Chat ---
 st.title(f"🚜 Assistente Técnico: {selected_topic}")
