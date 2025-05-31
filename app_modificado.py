@@ -33,7 +33,7 @@ if 'model' not in st.session_state:
 
 # --- Barra Lateral (Menu) ---
 st.sidebar.title("Guia de Linha Amarela para Engenheiros")
-st.sidebar.image("/home/ubuntu/heavy_equipment_sidebar.jpeg", caption="Guia de Linha Amarela") # Imagem local
+st.sidebar.image("heavy_equipment_sidebar.jpeg", caption="Guia de Linha Amarela") # Imagem local
 st.sidebar.markdown("**Navegue pelos tópicos:**")
 
 topics = [
