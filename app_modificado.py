@@ -71,7 +71,7 @@ st.sidebar.info("Este assistente utiliza IA Generativa para fornecer informaçõ
 st.title(f"🚜 Assistente Técnico: {selected_topic}")
 
 if not st.session_state.topic_selected and selected_topic == "Visão Geral":
-     st.info("Bem-vindo ao Guia de Linha Amarela para Engenheiros! Selecione um tópico na barra lateral para começar ou faça uma pergunta geral abaixo.")
+     st.info("Bem-vindo ao Guia de Linha Amarela e Pavimentação para Engenheiros! Selecione um tópico na barra lateral para começar ou faça uma pergunta geral abaixo.")
      st.session_state.topic_selected = True # Marca como selecionado para não mostrar a msg de novo
 
 # Exibe o histórico de mensagens
